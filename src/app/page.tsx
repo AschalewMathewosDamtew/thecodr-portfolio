@@ -6,94 +6,98 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
+          src="https://as2.ftcdn.net/v2/jpg/06/66/91/85/1000_F_666918579_yh1VbLsyLDpVqoQ6U3OwkodJOJJvW9lP.jpg" // Replace with your own image if needed
+          alt="Your Logo"
           width={180}
-          height={38}
+          height={180}
           priority
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        <h1 className="text-3xl font-bold text-center sm:text-left">
+          Welcome to Aschalew's Portfolio!
+        </h1>
+        <p className="text-center sm:text-left text-lg">
+          I'm Aschalew, and this is where I showcase my work and projects.
+          Feel free to explore and connect!
+        </p>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://github.com/AschalewMathewosDamtew"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
+              src="https://as2.ftcdn.net/v2/jpg/06/66/91/85/1000_F_666918579_yh1VbLsyLDpVqoQ6U3OwkodJOJJvW9lP.jpg" // Replace with your own logo or icon if needed
+              alt="GitHub logo"
               width={20}
               height={20}
             />
-            Deploy now
+            My GitHub
           </a>
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/aschalew-mathewos-damtew/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read our docs
+            <Image
+              className="dark:invert"
+              src="https://as2.ftcdn.net/v2/jpg/06/66/91/85/1000_F_666918579_yh1VbLsyLDpVqoQ6U3OwkodJOJJvW9lP.jpg" // Replace with your own logo or icon if needed
+              alt="LinkedIn logo"
+              width={20}
+              height={20}
+            />
+            Connect on LinkedIn
           </a>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://your-blog-or-portfolio.com" // Update link to your blog or portfolio
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
+            src="https://as2.ftcdn.net/v2/jpg/06/66/91/85/1000_F_666918579_yh1VbLsyLDpVqoQ6U3OwkodJOJJvW9lP.jpg" // Replace with your own icon if needed
+            alt="Blog icon"
             width={16}
             height={16}
           />
-          Learn
+          My Blog
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://your-projects-url.com" // Update link to your projects
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
+            src="https://as2.ftcdn.net/v2/jpg/06/66/91/85/1000_F_666918579_yh1VbLsyLDpVqoQ6U3OwkodJOJJvW9lP.jpg" // Replace with your own icon if needed
+            alt="Projects icon"
             width={16}
             height={16}
           />
-          Examples
+          My Projects
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://your-contact-url.com" // Update link to your contact page
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
+            src="https://as2.ftcdn.net/v2/jpg/06/66/91/85/1000_F_666918579_yh1VbLsyLDpVqoQ6U3OwkodJOJJvW9lP.jpg" // Replace with your own icon if needed
+            alt="Contact icon"
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          Contact Me
         </a>
       </footer>
     </div>
