@@ -13,10 +13,10 @@ export default function Home() {
           priority
         />
         <h1 className="text-3xl font-bold text-center sm:text-left">
-          Welcome to Aschalew's Portfolio!
+          Welcome to Aschalew&rsquo;s Portfolio!
         </h1>
         <p className="text-center sm:text-left text-lg">
-          I'm Aschalew, and this is where I showcase my work and projects.
+          I&rsquo;m Aschalew, and this is where I showcase my work and projects.
           Feel free to explore and connect!
         </p>
 
